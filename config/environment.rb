@@ -1,0 +1,8 @@
+require 'pry'
+require 'Nokogiri'
+require 'open-uri'
+require_relative './mlb_top_stories/concerns/headline_choice'
+require_relative './mlb_top_stories/version'
+require_relative './mlb_top_stories/story'
+require_relative './mlb_top_stories/headline'
+require_relative './mlb_top_stories/cli'
